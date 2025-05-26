@@ -1,7 +1,15 @@
+_schema: _schema
+timezone: Etc/UTC
 collections:
-  - name: pages
-    label: Pages
-    path: ""
+  - name: stranice
+    label: stranice
+    path: ''
     files:
       - file: index.html
-        label: Home Page
+        label: Početna stranica
+  - name: ''
+    label: ''
+    path: ''
+    files:
+      - file: ''
+        label: ''
