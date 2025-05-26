@@ -1,4 +1,7 @@
-_schema: _schema
-source: /
-paths: {}
-timezone: Etc/UTC
+collections:
+  - name: pages
+    label: Pages
+    path: ""
+    files:
+      - file: index.html
+        label: Home Page
