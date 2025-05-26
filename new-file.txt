@@ -1,0 +1,9 @@
+/fejs 1.jpg
+<style>
+  body {
+    background-image: url('/assets/pozadina.jpg');
+    background-size: cover;       /* slika će pokriti cijelu stranicu */
+    background-position: center;  /* centriranje pozadine */
+    background-repeat: no-repeat; /* da se slika ne ponavlja */
+  }
+</style>

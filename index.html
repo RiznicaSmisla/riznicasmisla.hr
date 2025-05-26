@@ -1,211 +1,44 @@
+/new-file.txt
 <!DOCTYPE html>
-
 <html lang="hr">
-
 <head>
-
-  <meta charset="UTF-8">
-
-  <title>Riznica smisla</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Riznica Smisla</title>
   <style>
-
     body {
-
       font-family: Arial, sans-serif;
-
-      margin: 0;
-
-      padding: 0;
-
-      display: flex;
-
-    }
-
-
-
-    /* Sidebar */
-
-    .sidebar {
-
-      width: 200px;
-
-      background-color: #f4f4f4;
-
-      height: 100vh;
-
-      padding: 20px;
-
-      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-
-    }
-
-
-
-    .sidebar h2 {
-
-      margin-top: 0;
-
-    }
-
-
-
-    .dropdown {
-
-      margin-top: 20px;
-
-    }
-
-
-
-    .dropdown-btn {
-
-      background-color: #008cba;
-
-      color: white;
-
-      padding: 10px;
-
-      border: none;
-
-      width: 100%;
-
-      text-align: left;
-
-      cursor: pointer;
-
-      font-size: 16px;
-
-    }
-
-
-
-    .dropdown-content {
-
-      display: none;
-
-      flex-direction: column;
-
-      margin-top: 10px;
-
-    }
-
-
-
-    .dropdown-content a {
-
-      text-decoration: none;
-
+      margin: 40px;
+      background-color: #f9f9f9;
       color: #333;
-
-      padding: 8px 0;
-
-      display: block;
-
     }
-
-
-
-    .dropdown-content a:hover {
-
-      background-color: #ddd;
-
+    h1 {
+      font-size: 3em; /* veliki naslov */
+      color: #2c3e50;
+      margin-bottom: 0.2em;
     }
-
-
-
-    /* Main content */
-
-    .content {
-
-      padding: 20px;
-
-      flex-grow: 1;
-
+    h2 {
+      font-size: 1.5em; /* manji podnaslov */
+      color: #34495e;
+      margin-top: 0;
+      margin-bottom: 1em;
+      font-weight: normal;
     }
-
+    p {
+      font-size: 1em;
+      line-height: 1.6;
+      max-width: 600px;
+    }
   </style>
-
 </head>
-
 <body>
-
-
-
-  <div class="sidebar">
-
-    <h2>Izbornik</h2>
-
-    <div class="dropdown">
-
-      <button class="dropdown-btn" onclick="toggleDropdown()">≡ Otvori meni</button>
-
-      <div class="dropdown-content" id="menu">
-
-        <a href="#novosti">Novosti</a>
-
-        <a href="#omeni">O meni</a>
-
-        <a href="#usluge">Usluge</a>
-
-        <a href="#cjenik">Cjenik</a>
-
-        <a href="#kontakt">Kontakt</a>
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="content">
-
-    <h1 id="novosti">Novosti</h1>
-
-    <p>Ovdje će biti objave i novosti.</p>
-
-
-
-    <h1 id="omeni">O meni</h1>
-
-    <p>Kratka biografija ili opis tko si i čime se baviš.</p>
-
-
-
-    <h1 id="usluge">Usluge</h1>
-
-    <p>Popis onoga što nudiš.</p>
-
-
-
-    <h1 id="cjenik">Cjenik</h1>
-
-    <p>Pregled cijena za tvoje usluge ili proizvode.</p>
-
-
-
-    <h1 id="kontakt">Kontakt</h1>
-
-    <p>Email, telefon ili kontakt forma.</p>
-
-  </div>
-
-
-
-  <script>
-
-    function toggleDropdown() {
-
-      var menu = document.getElementById("menu");
-
-      if (menu.style.display === "flex") {
-
-        menu.style.display = "none";
-
-      } else {
-
-        menu.style.display = "flex";
-
-
+  <h1>Dobrodošli na stranicu Riznice Smisla</h1>
+  <h2>Što nudimo?</h2>
+  <p>
+    Ovdje stvaramo prostor za razmišljanje, rast i pozitivne promjene. 
+  </p>
+  <p>
+    Nudimo savjete, podršku i alate za osobni razvoj i dobrobit. Pridruži se zajednici i kreni na put samospoznaje i boljeg života!
+  </p>
+</body>
+</html>
