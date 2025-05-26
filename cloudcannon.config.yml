@@ -1,4 +1,5 @@
 _schema: _schema
+source: /
 timezone: Etc/UTC
 collections:
   - name: stranice
@@ -7,9 +8,3 @@ collections:
     files:
       - file: index.html
         label: Početna stranica
-  - name: ''
-    label: ''
-    path: ''
-    files:
-      - file: ''
-        label: ''
