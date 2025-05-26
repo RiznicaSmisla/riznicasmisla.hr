@@ -1,4 +1,3 @@
-/new-file.txt
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -7,38 +6,93 @@
   <title>Riznica Smisla</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+      background: url('pozadina.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
     }
-    h1 {
-      font-size: 3em; /* veliki naslov */
-      color: #2c3e50;
-      margin-bottom: 0.2em;
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-bottom: 2px solid #333;
     }
-    h2 {
-      font-size: 1.5em; /* manji podnaslov */
-      color: #34495e;
-      margin-top: 0;
-      margin-bottom: 1em;
-      font-weight: normal;
+    .logo {
+      width: 120px;
+      height: 60px;
+      border: 2px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
     }
-    p {
+    .logo img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ddd;
+    }
+    .kontakt {
+      font-weight: bold;
       font-size: 1em;
-      line-height: 1.6;
-      max-width: 600px;
+      color: #333;
+      cursor: pointer;
+    }
+    .kontakt a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .kontakt a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 8px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Dobrodošli na stranicu Riznice Smisla</h1>
-  <h2>Što nudimo?</h2>
-  <p>
-    Ovdje stvaramo prostor za razmišljanje, rast i pozitivne promjene. 
-  </p>
-  <p>
-    Nudimo savjete, podršku i alate za osobni razvoj i dobrobit. Pridruži se zajednici i kreni na put samospoznaje i boljeg života!
-  </p>
+  <header>
+    <div class="logo">
+      <!-- Ovdje zamijeni 'logo.png' sa svojim logom -->
+      <img src="logo.png" alt="Logo Riznice Smisla" />
+    </div>
+    <nav>
+      <a href="usluge.html">Usluge</a>
+      <a href="omeni.html">O meni</a>
+      <a href="galerija.html">Galerija</a>
+    </nav>
+    <div class="kontakt">
+      <a href="kontakt.html">Kontakt: +385 99 123 4567</a>
+    </div>
+  </header>
+
+  <main>
+    <h1>Dobrodošli na Riznica Smisla</h1>
+    <p>Ovdje možete promijeniti tekst po želji i lako ga ažurirati.</p>
+  </main>
 </body>
 </html>
